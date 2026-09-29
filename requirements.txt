@@ -1,0 +1,12 @@
+segmentation-models-pytorch>=0.3.4
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+pyyaml
+rasterio
+shapely
+pystac-client
+planetary-computer
+tqdm
