@@ -1,0 +1,178 @@
+{
+  "rows": [
+    {
+      "budget": 0,
+      "strategy": "none",
+      "seed": 0,
+      "audit_miou": 0.09767463302151769
+    },
+    {
+      "budget": 5,
+      "strategy": "uncertain+diverse",
+      "seed": 0,
+      "audit_miou": 0.12272476741585603,
+      "audit_iou": {
+        "tree": 0.0383,
+        "grass_shrub": 0.1055,
+        "cropland": 0.5662,
+        "built": 0.0263,
+        "bare": 0.0,
+        "water": 0.0
+      }
+    },
+    {
+      "budget": 5,
+      "strategy": "random",
+      "seed": 0,
+      "audit_miou": 0.12854271683176524,
+      "audit_iou": {
+        "tree": 0.0416,
+        "grass_shrub": 0.0453,
+        "cropland": 0.5958,
+        "built": 0.0886,
+        "bare": 0.0,
+        "water": 0.0
+      }
+    },
+    {
+      "budget": 5,
+      "strategy": "random",
+      "seed": 1,
+      "audit_miou": 0.12730965745660483,
+      "audit_iou": {
+        "tree": 0.0399,
+        "grass_shrub": 0.053,
+        "cropland": 0.5932,
+        "built": 0.0778,
+        "bare": 0.0,
+        "water": 0.0
+      }
+    },
+    {
+      "budget": 5,
+      "strategy": "random",
+      "seed": 2,
+      "audit_miou": 0.12191392202257506,
+      "audit_iou": {
+        "tree": 0.0384,
+        "grass_shrub": 0.0547,
+        "cropland": 0.5829,
+        "built": 0.0555,
+        "bare": 0.0,
+        "water": 0.0
+      }
+    },
+    {
+      "budget": 10,
+      "strategy": "uncertain+diverse",
+      "seed": 0,
+      "audit_miou": 0.12704718690293923,
+      "audit_iou": {
+        "tree": 0.0385,
+        "grass_shrub": 0.0939,
+        "cropland": 0.5766,
+        "built": 0.0534,
+        "bare": 0.0,
+        "water": 0.0
+      }
+    },
+    {
+      "budget": 10,
+      "strategy": "random",
+      "seed": 0,
+      "audit_miou": 0.1267573683550571,
+      "audit_iou": {
+        "tree": 0.049,
+        "grass_shrub": 0.0765,
+        "cropland": 0.603,
+        "built": 0.0321,
+        "bare": 0.0,
+        "water": 0.0
+      }
+    },
+    {
+      "budget": 10,
+      "strategy": "random",
+      "seed": 1,
+      "audit_miou": 0.1250226432499192,
+      "audit_iou": {
+        "tree": 0.0446,
+        "grass_shrub": 0.0874,
+        "cropland": 0.5878,
+        "built": 0.0304,
+        "bare": 0.0,
+        "water": 0.0
+      }
+    },
+    {
+      "budget": 10,
+      "strategy": "random",
+      "seed": 2,
+      "audit_miou": 0.12395173703866326,
+      "audit_iou": {
+        "tree": 0.0382,
+        "grass_shrub": 0.0753,
+        "cropland": 0.5852,
+        "built": 0.045,
+        "bare": 0.0,
+        "water": 0.0
+      }
+    },
+    {
+      "budget": 20,
+      "strategy": "uncertain+diverse",
+      "seed": 0,
+      "audit_miou": 0.13089932383471437,
+      "audit_iou": {
+        "tree": 0.0319,
+        "grass_shrub": 0.0856,
+        "cropland": 0.5946,
+        "built": 0.0733,
+        "bare": 0.0,
+        "water": 0.0
+      }
+    },
+    {
+      "budget": 20,
+      "strategy": "random",
+      "seed": 0,
+      "audit_miou": 0.13124260528747628,
+      "audit_iou": {
+        "tree": 0.0456,
+        "grass_shrub": 0.0897,
+        "cropland": 0.6,
+        "built": 0.0522,
+        "bare": 0.0,
+        "water": 0.0
+      }
+    },
+    {
+      "budget": 20,
+      "strategy": "random",
+      "seed": 1,
+      "audit_miou": 0.12831379944763743,
+      "audit_iou": {
+        "tree": 0.04,
+        "grass_shrub": 0.0674,
+        "cropland": 0.5991,
+        "built": 0.0634,
+        "bare": 0.0,
+        "water": 0.0
+      }
+    },
+    {
+      "budget": 20,
+      "strategy": "random",
+      "seed": 2,
+      "audit_miou": 0.1286996312867781,
+      "audit_iou": {
+        "tree": 0.0453,
+        "grass_shrub": 0.0793,
+        "cropland": 0.5942,
+        "built": 0.0535,
+        "bare": 0.0,
+        "water": 0.0
+      }
+    }
+  ]
+}

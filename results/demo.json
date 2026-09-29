@@ -1,0 +1,58 @@
+{
+  "demo_mali_dry / source model": {
+    "status": "NEEDS_LABELS",
+    "max_band_z": 21.959914319933656,
+    "uncertain_chip_share": 1.0,
+    "prior_gap": 0.5573161014673291,
+    "class_share": {
+      "tree": 0.0044,
+      "grass_shrub": 0.1543,
+      "cropland": 0.1754,
+      "built": 0.5089,
+      "bare": 0.0,
+      "water": 0.157
+    }
+  },
+  "demo_mali_dry / adapted model + scene AdaBN": {
+    "status": "OK",
+    "max_band_z": 2.0019120071772556,
+    "uncertain_chip_share": 0.0,
+    "prior_gap": 0.14375111394926407,
+    "class_share": {
+      "tree": 0.0569,
+      "grass_shrub": 0.0339,
+      "cropland": 0.8944,
+      "built": 0.0014,
+      "bare": 0.0,
+      "water": 0.0134
+    }
+  },
+  "demo_iowa_summer / source model": {
+    "status": "ADAPT",
+    "max_band_z": 3.513238503933611,
+    "uncertain_chip_share": 0.02040816326530612,
+    "prior_gap": 0.1874742076536502,
+    "class_share": {
+      "tree": 0.0064,
+      "grass_shrub": 0.0532,
+      "cropland": 0.881,
+      "built": 0.024,
+      "bare": 0.0,
+      "water": 0.0354
+    }
+  },
+  "demo_iowa_summer / adapted model + scene AdaBN": {
+    "status": "OK",
+    "max_band_z": 2.6421476771314083,
+    "uncertain_chip_share": 0.0,
+    "prior_gap": 0.12801303555037938,
+    "class_share": {
+      "tree": 0.0412,
+      "grass_shrub": 0.0667,
+      "cropland": 0.8439,
+      "built": 0.0147,
+      "bare": 0.0,
+      "water": 0.0334
+    }
+  }
+}

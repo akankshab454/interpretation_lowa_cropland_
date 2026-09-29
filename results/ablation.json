@@ -1,0 +1,541 @@
+{
+  "rows": [
+    {
+      "method": "source only",
+      "seed": 0,
+      "audit_miou": 0.1133394508436985,
+      "audit_fwiou": 0.21303744547037254,
+      "audit_oa": 0.2519304832036273,
+      "audit_iou": {
+        "tree": 0.2443,
+        "grass_shrub": 0.1914,
+        "cropland": 0.2352,
+        "built": 0.0091,
+        "bare": 0.0,
+        "water": 0.0
+      },
+      "audit_true_share": {
+        "tree": 0.0034,
+        "grass_shrub": 0.4009,
+        "cropland": 0.5757,
+        "built": 0.0065,
+        "bare": 0.0136,
+        "water": 0.0
+      },
+      "audit_pred_share": {
+        "tree": 0.004,
+        "grass_shrub": 0.1226,
+        "cropland": 0.269,
+        "built": 0.6027,
+        "bare": 0.0,
+        "water": 0.0017
+      },
+      "audit_ece": 0.1767865184420671,
+      "iowa_miou": 0.4950876167097887,
+      "entropy": 1.4774625301361084,
+      "confident_share": 0.002134486607142857,
+      "rotation_agreement": 0.8634389968145462,
+      "prior_gap": 0.5855690810513433
+    },
+    {
+      "method": "per-region band standardisation",
+      "seed": 0,
+      "audit_miou": 0.031810604211200126,
+      "audit_fwiou": 0.10237955162337833,
+      "audit_oa": 0.10958487812806024,
+      "audit_iou": {
+        "tree": 0.0042,
+        "grass_shrub": 0.0245,
+        "cropland": 0.1608,
+        "built": 0.0,
+        "bare": 0.0014,
+        "water": 0.0
+      },
+      "audit_true_share": {
+        "tree": 0.0034,
+        "grass_shrub": 0.4009,
+        "cropland": 0.5757,
+        "built": 0.0065,
+        "bare": 0.0136,
+        "water": 0.0
+      },
+      "audit_pred_share": {
+        "tree": 0.7799,
+        "grass_shrub": 0.0743,
+        "cropland": 0.1099,
+        "built": 0.0001,
+        "bare": 0.0003,
+        "water": 0.0356
+      },
+      "audit_ece": 0.71603367756813,
+      "iowa_miou": 0.4950876167097887,
+      "entropy": 0.47680169343948364,
+      "confident_share": 0.618335469563802,
+      "rotation_agreement": 0.9022586640857515,
+      "prior_gap": 0.47489731598286894
+    },
+    {
+      "method": "AdaBN, one 'Sahel'",
+      "seed": 0,
+      "audit_miou": 0.09464325291580095,
+      "audit_fwiou": 0.3147510103031404,
+      "audit_oa": 0.4825592582568132,
+      "audit_iou": {
+        "tree": 0.0122,
+        "grass_shrub": 0.0275,
+        "cropland": 0.5276,
+        "built": 0.0006,
+        "bare": 0.0,
+        "water": 0.0
+      },
+      "audit_true_share": {
+        "tree": 0.0034,
+        "grass_shrub": 0.4009,
+        "cropland": 0.5757,
+        "built": 0.0065,
+        "bare": 0.0136,
+        "water": 0.0
+      },
+      "audit_pred_share": {
+        "tree": 0.1693,
+        "grass_shrub": 0.0399,
+        "cropland": 0.7814,
+        "built": 0.0039,
+        "bare": 0.0,
+        "water": 0.0055
+      },
+      "audit_ece": 0.3884914607836881,
+      "iowa_miou": 0.4950876167097887,
+      "entropy": 0.4455442428588867,
+      "confident_share": 0.6027992611839658,
+      "rotation_agreement": 0.7869787307012649,
+      "prior_gap": 0.30464276335087176
+    },
+    {
+      "method": "AdaBN per region",
+      "seed": 0,
+      "audit_miou": 0.09440847583629268,
+      "audit_fwiou": 0.31133983293523965,
+      "audit_oa": 0.4574053300705657,
+      "audit_iou": {
+        "tree": 0.0117,
+        "grass_shrub": 0.0381,
+        "cropland": 0.5142,
+        "built": 0.0025,
+        "bare": 0.0,
+        "water": 0.0
+      },
+      "audit_true_share": {
+        "tree": 0.0034,
+        "grass_shrub": 0.4009,
+        "cropland": 0.5757,
+        "built": 0.0065,
+        "bare": 0.0136,
+        "water": 0.0
+      },
+      "audit_pred_share": {
+        "tree": 0.2032,
+        "grass_shrub": 0.074,
+        "cropland": 0.7129,
+        "built": 0.0046,
+        "bare": 0.0,
+        "water": 0.0053
+      },
+      "audit_ece": 0.3799476712819252,
+      "iowa_miou": 0.4950876167097887,
+      "entropy": 0.4306395649909973,
+      "confident_share": 0.6210689726329985,
+      "rotation_agreement": 0.8036158970424108,
+      "prior_gap": 0.24538145209346884
+    },
+    {
+      "method": "AdaBN per region + TENT",
+      "seed": 0,
+      "audit_miou": 0.10414623368862287,
+      "audit_fwiou": 0.3404380868309704,
+      "audit_oa": 0.5127891033569846,
+      "audit_iou": {
+        "tree": 0.0184,
+        "grass_shrub": 0.031,
+        "cropland": 0.5696,
+        "built": 0.0058,
+        "bare": 0.0,
+        "water": 0.0
+      },
+      "audit_true_share": {
+        "tree": 0.0034,
+        "grass_shrub": 0.4009,
+        "cropland": 0.5757,
+        "built": 0.0065,
+        "bare": 0.0136,
+        "water": 0.0
+      },
+      "audit_pred_share": {
+        "tree": 0.1602,
+        "grass_shrub": 0.0444,
+        "cropland": 0.7922,
+        "built": 0.0023,
+        "bare": 0.0,
+        "water": 0.0009
+      },
+      "audit_ece": 0.3553309513216026,
+      "iowa_miou": 0.4950876167097887,
+      "entropy": 0.40039902925491333,
+      "confident_share": 0.6709729875837054,
+      "rotation_agreement": 0.8805969964890253,
+      "prior_gap": 0.25042621649175667
+    },
+    {
+      "method": "+ radiometric aug",
+      "seed": 0,
+      "audit_miou": 0.10216102898709818,
+      "audit_fwiou": 0.3190783725228163,
+      "audit_oa": 0.4783393725702978,
+      "audit_iou": {
+        "tree": 0.0228,
+        "grass_shrub": 0.0579,
+        "cropland": 0.5136,
+        "built": 0.0187,
+        "bare": 0.0,
+        "water": 0.0
+      },
+      "audit_true_share": {
+        "tree": 0.0034,
+        "grass_shrub": 0.4009,
+        "cropland": 0.5757,
+        "built": 0.0065,
+        "bare": 0.0136,
+        "water": 0.0
+      },
+      "audit_pred_share": {
+        "tree": 0.1065,
+        "grass_shrub": 0.1169,
+        "cropland": 0.7418,
+        "built": 0.0198,
+        "bare": 0.0,
+        "water": 0.0149
+      },
+      "audit_ece": 0.34889992644332674,
+      "iowa_miou": 0.48699943429040987,
+      "entropy": 0.44791629910469055,
+      "confident_share": 0.6273736136300223,
+      "rotation_agreement": 0.8498035975864955,
+      "prior_gap": 0.24597853323376917
+    },
+    {
+      "method": "+ self-train",
+      "seed": 0,
+      "audit_miou": 0.09775212303012852,
+      "audit_fwiou": 0.3125884868814018,
+      "audit_oa": 0.4777428700375076,
+      "audit_iou": {
+        "tree": 0.0174,
+        "grass_shrub": 0.0389,
+        "cropland": 0.5156,
+        "built": 0.0146,
+        "bare": 0.0,
+        "water": 0.0
+      },
+      "audit_true_share": {
+        "tree": 0.0034,
+        "grass_shrub": 0.4009,
+        "cropland": 0.5757,
+        "built": 0.0065,
+        "bare": 0.0136,
+        "water": 0.0
+      },
+      "audit_pred_share": {
+        "tree": 0.0878,
+        "grass_shrub": 0.1038,
+        "cropland": 0.7675,
+        "built": 0.0153,
+        "bare": 0.0,
+        "water": 0.0256
+      },
+      "audit_ece": 0.37610142856093753,
+      "iowa_miou": 0.47270566045397366,
+      "entropy": 0.33218908309936523,
+      "confident_share": 0.7177649361746652,
+      "rotation_agreement": 0.9006299700055803,
+      "prior_gap": 0.2970657816312992,
+      "history": [
+        {
+          "round": 1,
+          "thresholds": [
+            0.6769999861717224,
+            0.5170000195503235,
+            0.8999999761581421,
+            0.4560000002384186,
+            0.8999999761581421,
+            0.8100000023841858
+          ],
+          "pseudo_share": [
+            0.0563,
+            0.0299,
+            0.836,
+            0.0109,
+            0.0,
+            0.067
+          ]
+        },
+        {
+          "round": 2,
+          "thresholds": [
+            0.621999979019165,
+            0.5260000228881836,
+            0.8999999761581421,
+            0.4880000054836273,
+            0.8999999761581421,
+            0.8999999761581421
+          ],
+          "pseudo_share": [
+            0.053,
+            0.0214,
+            0.8151,
+            0.0082,
+            0.0,
+            0.1023
+          ]
+        }
+      ]
+    },
+    {
+      "method": "+ self-train + FDA",
+      "seed": 0,
+      "audit_miou": 0.09767463302151769,
+      "audit_fwiou": 0.3104532132623513,
+      "audit_oa": 0.4847240647027935,
+      "audit_iou": {
+        "tree": 0.0207,
+        "grass_shrub": 0.0332,
+        "cropland": 0.5159,
+        "built": 0.0163,
+        "bare": 0.0,
+        "water": 0.0
+      },
+      "audit_true_share": {
+        "tree": 0.0034,
+        "grass_shrub": 0.4009,
+        "cropland": 0.5757,
+        "built": 0.0065,
+        "bare": 0.0136,
+        "water": 0.0
+      },
+      "audit_pred_share": {
+        "tree": 0.0705,
+        "grass_shrub": 0.097,
+        "cropland": 0.7964,
+        "built": 0.0111,
+        "bare": 0.0,
+        "water": 0.025
+      },
+      "audit_ece": 0.3777668564293103,
+      "iowa_miou": 0.4787429458042378,
+      "entropy": 0.41451945900917053,
+      "confident_share": 0.6588247390020461,
+      "rotation_agreement": 0.8829505557105655,
+      "prior_gap": 0.19794844869968595,
+      "history": [
+        {
+          "round": 1,
+          "thresholds": [
+            0.6769999861717224,
+            0.5170000195503235,
+            0.8999999761581421,
+            0.4560000002384186,
+            0.8999999761581421,
+            0.8100000023841858
+          ],
+          "pseudo_share": [
+            0.0458,
+            0.0248,
+            0.8758,
+            0.0051,
+            0.0,
+            0.0485
+          ]
+        },
+        {
+          "round": 2,
+          "thresholds": [
+            0.5669999718666077,
+            0.5149999856948853,
+            0.8999999761581421,
+            0.4230000078678131,
+            0.8999999761581421,
+            0.8519999980926514
+          ],
+          "pseudo_share": [
+            0.0385,
+            0.0324,
+            0.8583,
+            0.0053,
+            0.0,
+            0.0655
+          ]
+        }
+      ]
+    },
+    {
+      "method": "+ self-train",
+      "seed": 1,
+      "audit_miou": 0.09890895252296644,
+      "audit_fwiou": 0.32170940989771507,
+      "audit_oa": 0.4909269913340952,
+      "audit_iou": {
+        "tree": 0.0136,
+        "grass_shrub": 0.0286,
+        "cropland": 0.5388,
+        "built": 0.0126,
+        "bare": 0.0,
+        "water": 0.0
+      },
+      "audit_true_share": {
+        "tree": 0.0034,
+        "grass_shrub": 0.4009,
+        "cropland": 0.5757,
+        "built": 0.0065,
+        "bare": 0.0136,
+        "water": 0.0
+      },
+      "audit_pred_share": {
+        "tree": 0.1047,
+        "grass_shrub": 0.073,
+        "cropland": 0.7842,
+        "built": 0.0098,
+        "bare": 0.0,
+        "water": 0.0283
+      },
+      "audit_ece": 0.3709128740833629,
+      "iowa_miou": 0.474356267571688,
+      "entropy": 0.35383570194244385,
+      "confident_share": 0.694924563453311,
+      "rotation_agreement": 0.8984856741768973,
+      "prior_gap": 0.29049306701791017,
+      "history": [
+        {
+          "round": 1,
+          "thresholds": [
+            0.6769999861717224,
+            0.5170000195503235,
+            0.8999999761581421,
+            0.4560000002384186,
+            0.8999999761581421,
+            0.8100000023841858
+          ],
+          "pseudo_share": [
+            0.0736,
+            0.0231,
+            0.843,
+            0.0073,
+            0.0,
+            0.053
+          ]
+        },
+        {
+          "round": 2,
+          "thresholds": [
+            0.6539999842643738,
+            0.5139999985694885,
+            0.8999999761581421,
+            0.42500001192092896,
+            0.2540000081062317,
+            0.8920000195503235
+          ],
+          "pseudo_share": [
+            0.0649,
+            0.0157,
+            0.8235,
+            0.0056,
+            0.0,
+            0.0904
+          ]
+        }
+      ]
+    },
+    {
+      "method": "+ self-train + FDA",
+      "seed": 1,
+      "audit_miou": 0.09767093237698786,
+      "audit_fwiou": 0.31261677809943633,
+      "audit_oa": 0.48345759011704553,
+      "audit_iou": {
+        "tree": 0.0148,
+        "grass_shrub": 0.0309,
+        "cropland": 0.5212,
+        "built": 0.0191,
+        "bare": 0.0,
+        "water": 0.0
+      },
+      "audit_true_share": {
+        "tree": 0.0034,
+        "grass_shrub": 0.4009,
+        "cropland": 0.5757,
+        "built": 0.0065,
+        "bare": 0.0136,
+        "water": 0.0
+      },
+      "audit_pred_share": {
+        "tree": 0.0864,
+        "grass_shrub": 0.0881,
+        "cropland": 0.7878,
+        "built": 0.0101,
+        "bare": 0.0,
+        "water": 0.0276
+      },
+      "audit_ece": 0.37835098712495485,
+      "iowa_miou": 0.47993376964657414,
+      "entropy": 0.3908432126045227,
+      "confident_share": 0.6774363926478795,
+      "rotation_agreement": 0.8781076340448288,
+      "prior_gap": 0.23565696007517145,
+      "history": [
+        {
+          "round": 1,
+          "thresholds": [
+            0.6769999861717224,
+            0.5170000195503235,
+            0.8999999761581421,
+            0.4560000002384186,
+            0.8999999761581421,
+            0.8100000023841858
+          ],
+          "pseudo_share": [
+            0.0654,
+            0.0223,
+            0.8657,
+            0.0051,
+            0.0,
+            0.0414
+          ]
+        },
+        {
+          "round": 2,
+          "thresholds": [
+            0.6140000224113464,
+            0.503000020980835,
+            0.8999999761581421,
+            0.4000000059604645,
+            0.8999999761581421,
+            0.8450000286102295
+          ],
+          "pseudo_share": [
+            0.0524,
+            0.0256,
+            0.8557,
+            0.0046,
+            0.0,
+            0.0617
+          ]
+        }
+      ]
+    }
+  ],
+  "proxy_rho": {
+    "entropy": -0.04242424242424241,
+    "confident_share": 0.1515151515151515,
+    "rotation_agreement": -0.0303030303030303,
+    "prior_gap": 0.12727272727272726
+  },
+  "chip_entropy_rho": -0.5058871405317417
+}
