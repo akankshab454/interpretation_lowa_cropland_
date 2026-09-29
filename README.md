@@ -1,4 +1,4 @@
-# Iowa → Sahel land-cover shift
+# Iowa = Sahel land-cover shift
 
 ## Setup
 
