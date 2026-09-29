@@ -1,7 +1,5 @@
 # Iowa → Sahel land-cover shift
 
-Why a land-cover model trained on Iowa fails in the Sahel, and what to do about it. Results and interpretation are in [report.pdf](report.pdf).
-
 ## Setup
 
 ```bash
