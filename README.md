@@ -1,4 +1,4 @@
-# Iowa → Sahel: why the land-cover model breaks and what I would do
+# Iowa - Sahel: why the land-cover model breaks and what I would do
 
 A segmentation model trained on Iowa does well there and falls apart in a semi-arid region in another season. No data came with the task, so I rebuilt the setup myself:
 - **Imagery:** Sentinel-2, 8 bands from 490 to 865 nm, close to Pixxel Firefly's range.
