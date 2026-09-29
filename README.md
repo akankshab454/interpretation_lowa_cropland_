@@ -9,7 +9,6 @@ A segmentation model trained on Iowa does well there and falls apart in a semi-a
 The Sahel labels were never used for training. I only used them to score one held-out strip.
 
 ## What I found
-
 ![staircase](results/figures/staircase.png)
 
 - Iowa scores **0.51** mIoU and the Sahel **0.12**. Holding out whole regions instead of random chips cost 0.03, so the leak exists but is small.
@@ -25,7 +24,6 @@ The Sahel labels were never used for training. I only used them to score one hel
 - In Niger, cropland and grass/shrub have the **same NDVI** (0.14 vs 0.16 in the dry season, 0.28 vs 0.28 in the wet season). From one image, "cropland" is a land-use label, not something the pixel shows.
 
 ## What I tried
-
 | Method | mIoU | Pixel accuracy | Cropland IoU | Grass/shrub IoU |
 |---|---|---|---|---|
 | Map that says "cropland" everywhere | 0.115 | 0.58 | 0.58 | 0 |
@@ -41,7 +39,6 @@ The Sahel labels were never used for training. I only used them to score one hel
 ![examples](results/figures/qualitative.png)
 
 ## How I read it
-
 1. **AdaBN fixes the "city" mistake.** Pixel accuracy goes from 31% to about 50%. But the model then calls almost everything cropland, which is why mIoU does not move. Four of the six classes are under 1.5% of the Sahel pixels, so mIoU swings on tiny classes.
 2. **BN statistics must come from the same scene.** Statistics taken from other Sentinel-2 dates in the same region made things worse.
 3. **Standardising bands to look like Iowa was the worst idea.** It turns bright soil into "green-looking" numbers.
@@ -58,7 +55,6 @@ The Sahel labels were never used for training. I only used them to score one hel
 WorldCover itself is weak on Sahel cropland, so these Sahel scores are agreement with WorldCover, not true accuracy.
 
 ## What I would ship
-
 - **Per-scene BN statistics at inference**, plus a drift monitor that returns OK / ADAPT / NEEDS_LABELS.
 - **A small labelling loop:** 10–20 chips per new zone, chosen by uncertainty and diversity.
 - **Next:** add a second-season image as input, because the cropland signal is in time, not in one date.
